@@ -1,0 +1,93 @@
+.App {
+    text-align: center;
+  }
+  
+  header {
+    background-color: white;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .filter-section {
+    width: 20%;
+  }
+  
+  .filter-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .filter-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .filter-section li {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .filter-section li.active {
+    background-color: #e0e0e0;
+  }
+  
+  .product-container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cart-container {
+    width: 20%;
+    margin-top: 20px;
+  }
+  
+  .cart-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .cart-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-container li {
+    margin-bottom: 5px;
+  }
